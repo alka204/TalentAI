@@ -24,7 +24,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://127.0.0.1:5173",
-      "https://talent-ai-ecru-zeta.vercel.app",
+      "https://talent-ai-zoom3.vercel.app",
     ],
     credentials: true,
   }),
