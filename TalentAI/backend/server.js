@@ -16,6 +16,7 @@ const historyRoutes = require("./routes/historyRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
 
 const app = express();
+app.set("trust proxy", 1);
 
 // --- Security & parsing middleware ---
 app.use(helmet());
